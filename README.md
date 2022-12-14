@@ -6,5 +6,3 @@ npm instal
 ´´´
 npm run build 
 ´´´
-npm run build:dev
-´´´
