@@ -1,0 +1,17 @@
+fieldset {
+    background-color: #f4f1ed ;
+    color: firebrick;
+    border-color: darkgoldenrod;
+    border: 9px groove (internal value);
+    border-radius: 7px;
+    width:400px;
+}
+
+legend{
+    color: darkblue;
+    font-weight: bold
+}
+
+input{
+    margin-bottom: 8px;
+}

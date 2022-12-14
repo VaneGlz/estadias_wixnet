@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link type="text/css" rel="stylesheet"
+        href="../styles.css" />
+        <title> Soporte_Tecnico </title>
+        <link rel="stylesheet"  href="../style.css">
+    </head>
+    <body bgcolor="#FFF"> 
+        <header class="encabezado">
+            <nav>
+                <div> 
+                    <a href="../index.html">
+                    <img src="../img/logo.png"  witdth="60" height="60" class="l1"> &nbsp; </a> </div> 
+                    <h1>Wixnet</h1>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Productos</a>
+                    <ul>
+                        <li><a href="../Ventas/onlineSale.html">venta en linea</a></li>
+                        <li><a href="../seguridad/security.html">seguridad</a></li>
+                        <li><a href="../Infrestructura/infrastructure.html">Infrestructura</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Acerca de nosotros</a>
+                    <ul>
+                        <li><a href="../Mision/mission.html">Mision</a></li>
+                        <li><a href="../Vision/vision.html">Vision</a></li>
+                        <li><a href="../Certificaciones/certifications.html">certificaciones</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">servicios</a>
+                        <ul>
+                            <li><a href="..//Cotizaciones/quotes.html">cotizaciones</a></li>
+                            <li><a href="../SoporteT/technicalSupport.html">soporte tecnico</a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                        </li>
+
+                    <li><a href="../Pago/payment.html">pago</a></li>
+                    <li><a href="../Contactanos/contact.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </header>  
+        <h3>Completar el formulario a continuación y haga clic en enviar ahora para darle seguimiento a su solicitud </h3>
+        <form action="recibir.php" method="get" novalidate enctype="application/x-www-form-urlencoded" >
+            <center><fieldset><link type="text/css" rel="stylesheet" href="../Cotizaciones/style_quotes.css" />
+                <legend>Datos personales</legend>
+                <label>Nombre: <input type="text" name="nom" /><label><br>
+                <label>Apellidos: <input type="text" name="ape" /><label><br>
+                <label>Sexo: Hombre<input type="radio" name="sexo" value="h"> Mujer<input type="radio" name="sexo" value="m" /><label><br>
+                <label>Telefono: <input type="tel" name="tel" size="15" maxlength="15"/><label><br>
+                <label>Edad: <input type="number" name="edad" min="18" max="65" placeholder="18-65"/><label><br>
+                <label>Correo: <input type="email" name="correo" size="15" maxlength="15"/><label><br>
+              </fieldset>
+
+              <br>
+              <fieldset>
+              <legend>Problema</legend>
+              <label> <input type="text" name="pro" size="18" minlength="2"/><label><br>
+              </fieldset><br>
+
+              <br>
+              <fieldset>
+              <legend>Datos de la solicitud</legend>
+              <label>Fecha y Hora de la solicitud:<input type="datetime-local"  name="fechaHora" value="2018-08-01T09:30"/><label><br>
+              </fieldset><br>
+                    <input type="checkbox" value"acepta" name="condiciones" checked="checked"> Acepto condiciones</p>
+                    <p><input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar"></p></center>
+        </form>
+        <h3><img src="../img/st.jpg"witdth="150" height="250"></h3>
+        <!--FOOTER-->
+        <footer>
+            <img src="../img/logo.png" class="logofooter">
+            </div>
+            <p>Nos ubicamos en  en Mz 16 Lt 3, Del Tule 3, Campestre Villas del Álamo, 
+                Pachuca de Soto, Hgo.</p>
+                <p>Telefono: 7717198750</p>
+            <span class="copyright">&copy;2022, Wixnet S.A</span>
+        </footer>
+    </body>
+</html>

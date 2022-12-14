@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+ footer{
+     background-color:#64b5f6;
+     padding: 1em 0;
+     text-align: center;
+     margin-top: auto;
+ }
+ .logofooter{
+    height: 60px;
+    margin-bottom: 0rem;
+    width: 70px;
+    border-radius: 70%;
+ }
+.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+ }
+ 
+ .footer-menu-container{
+    list-style-type: none;
+    color: darkmagenta;
+    font-size: 18px;
+ }
+ .copyright{
+    color: black;
+    text-align: center;
+     
+ }
+
+ *{
+    margin: 0;
+    padding: 0pt;
+}
+.encabezado{
+    background: #64b5f6;
+}
+.l1{
+    width: 70px;
+    border-radius: 70%;
+    text-align: center;
+}
+.encabezado nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 15px;
+}
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding: 12px 20px;
+    display: block;
+}
+a:hover{
+    background: #FFD740;
+}
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.encabezado nav ul li ul{
+    position: absolute;
+    background: #FFA726;
+
+}
+.encabezado nav ul li ul li{
+    width: 180px;
+    padding: relative;
+    display: absolute;
+}
+.encabezado nav ul li ul{
+    display: none;
+}
+.encabezado nav ul li:hover >ul{
+ display: block;
+}
+.text{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: Courier;
+    
+}
+.m1{
+    height: 100px;
+    text-align: center;
+}
+.c2{
+    height: 100px;
+    padding-top: 170px;
+    text-align: center;
+}
+h4{
+    color: black;
+    font-size: 40px;
+    padding-top: 200px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    color: #FC4B08;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Courier New;
+}
+.ubi{
+   border-radius: 25%;
+   height: 150px;
+   width: 150px;
+   text-align: center;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Courier New;
+}
+h5{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+h6{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+.in_cookie {
+    width: 100%;
+    position: absolute;
+    padding-left: 5px;
+    font-family: verdana;
+    font-size: 12px;
+    top: 10%;
+}
